@@ -13,101 +13,107 @@
         <!-- SECTION 1 — PROFILE HEADER -->
         <header class="profile-header">
             <div class="photo-container">
-                <img src="photo.jpg" alt="Jobert Dexz P. Bautista">
+                <img src="photo.jpg" alt="Jobert Dexz P. Bautista" onerror="this.src='https://picsum.photos/seed/cyber/150/150'">
             </div>
             <h1>Jobert Dexz P. Bautista</h1>
             <p class="title">Aspiring Cybersecurity Analyst</p>
         </header>
 
         <!-- SECTION 2 — ABOUT ME -->
-        <section class="about-me">
+        <section class="section-container">
             <h2 class="section-title">About Me</h2>
-            <p>
-                I am currently a student pursuing a degree in BS Information Technology at 
-                Our Lady of the Sacred Heart College of Guimba, Inc. (OLSHCO). 
-                My primary academic and professional interests lie in the fields of Cybersecurity and technology development. 
-                I find great fulfillment in helping people solve complex computer problems and securing digital environments.
-            </p>
+            <div class="content-box">
+                <p>I am a BS Information Technology student at Our Lady of the Sacred Heart College of Guimba, Inc. (OLSHCO). My academic journey is centered on my deep interest in cybersecurity, technology, and a commitment to helping people solve complex computer problems. I am passionate about learning how to defend systems and protect data from evolving digital threats.</p>
+            </div>
         </section>
 
         <!-- SECTION 3 — PERSONAL DETAILS -->
-        <section class="personal-details">
+        <section class="section-container">
             <h2 class="section-title">Personal Details</h2>
-            <table>
-                <tr>
-                    <th>Full Name:</th>
-                    <td>Jobert Dexz P. Bautista</td>
-                </tr>
-                <tr>
-                    <th>Age:</th>
-                    <td>22</td>
-                </tr>
-                <tr>
-                    <th>Email:</th>
-                    <td>JDPBOFFICIAL@gmail.com</td>
-                </tr>
-                <tr>
-                    <th>Address:</th>
-                    <td>Guimba, Nueva Ecija</td>
-                </tr>
-            </table>
+            <div class="table-container">
+                <table>
+                    <tr>
+                        <th>Full Name</th>
+                        <td>Jobert Dexz P. Bautista</td>
+                    </tr>
+                    <tr>
+                        <th>Age</th>
+                        <td>22</td>
+                    </tr>
+                    <tr>
+                        <th>Email</th>
+                        <td>JDPBOFFICIAL@gmail.com</td>
+                    </tr>
+                    <tr>
+                        <th>Address</th>
+                        <td>Bagong Silang Street, Barangay Santa Veronica, Guimba, Nueva Ecija</td>
+                    </tr>
+                </table>
+            </div>
         </section>
 
         <!-- SECTION 4 — SKILLS -->
-        <section class="skills">
+        <section class="section-container">
             <h2 class="section-title">Skills</h2>
-            
-            <div class="skill-item">
-                <div class="skill-info">
-                    <span>HTML</span>
-                    <span>70%</span>
+            <div class="skills-list">
+                <div class="skill-item">
+                    <div class="skill-info">
+                        <span>HTML</span>
+                        <span>Beginner (35%)</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 35%"></div>
+                    </div>
                 </div>
-                <div class="progress-bar">
-                    <div class="progress-fill" style="width: 70%;"></div>
+                <div class="skill-item">
+                    <div class="skill-info">
+                        <span>CSS</span>
+                        <span>Intermediate (65%)</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 65%"></div>
+                    </div>
                 </div>
-            </div>
-
-            <div class="skill-item">
-                <div class="skill-info">
-                    <span>CSS</span>
-                    <span>70%</span>
+                <div class="skill-item">
+                    <div class="skill-info">
+                        <span>Python</span>
+                        <span>Beginner to Intermediate (50%)</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 50%"></div>
+                    </div>
                 </div>
-                <div class="progress-bar">
-                    <div class="progress-fill" style="width: 70%;"></div>
+                <div class="skill-item">
+                    <div class="skill-info">
+                        <span>Java</span>
+                        <span>Beginner to Intermediate (50%)</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 50%"></div>
+                    </div>
                 </div>
-            </div>
-
-            <div class="skill-item">
-                <div class="skill-info">
-                    <span>JavaScript</span>
-                    <span>60%</span>
-                </div>
-                <div class="progress-bar">
-                    <div class="progress-fill" style="width: 60%;"></div>
-                </div>
-            </div>
-
-            <div class="skill-item">
-                <div class="skill-info">
-                    <span>Python</span>
-                    <span>60%</span>
-                </div>
-                <div class="progress-bar">
-                    <div class="progress-fill" style="width: 60%;"></div>
+                <div class="skill-item">
+                    <div class="skill-info">
+                        <span>Networking Basics</span>
+                        <span>Beginner to Intermediate (45%)</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 45%"></div>
+                    </div>
                 </div>
             </div>
         </section>
 
         <!-- SECTION 5 — INSPIRATION AS A PROGRAMMER -->
-        <section class="inspiration">
-            <h2 class="section-title">Inspiration</h2>
-            <p>
-                "I was always the person my neighbors called when their computers had problems — and honestly, I loved every minute of it. That curiosity eventually led me to study Information Technology, where I discovered my passion for cybersecurity and protecting systems from threats."
-            </p>
+        <section class="section-container">
+            <h2 class="section-title">Inspiration as a Programmer</h2>
+            <div class="content-box inspiration-box">
+                <p>"Growing up, I was always the person my neighbors called when their computers had problems—and honestly, I loved every minute of helping them. That curiosity eventually led me to study Information Technology, where I discovered my true passion for cybersecurity and protecting critical systems from modern threats."</p>
+            </div>
         </section>
 
-        <footer class="footer">
-            <p>&copy; 2024 Jobert Dexz P. Bautista</p>
+        <footer>
+            <p>&copy; 2026 Jobert Dexz P. Bautista. All Rights Reserved.</p>
         </footer>
     </div>
 
